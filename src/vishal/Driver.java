@@ -9,7 +9,7 @@ String a="vishal";
 
 		System.out.println(s instanceof VerifyWordpressLogin);
 		System.out.println(a.length());
-		
+		System.out.println("Hi");
 	}
 
 }
