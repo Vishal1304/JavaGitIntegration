@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFCell;
@@ -32,10 +33,10 @@ public class ReadExcelUsingarray {
 	public void loadtest(String Username, String Password) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "G:\\java_workspace\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		// Launch the URL
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		driver.get("http://demo.guru99.com/V4/");
 		// Find user name
 		Thread.sleep(2000);
@@ -65,9 +66,11 @@ public class ReadExcelUsingarray {
 			for (int i = 0; i < rowcount + 1; i++) {
 				for (int j = 0; j < cellcount; j++) {
 					XSSFRow row = SheetName.getRow(i);
+					DataFormatter formatter = new DataFormatter();
 
 					XSSFCell uname = row.getCell(j);
-					data[i][j] = uname.getStringCellValue();
+					String newname=formatter.formatCellValue(uname);
+					data[i][j] = newname;
 
 					/*
 					 * XSSFCell pwd= row.getCell(1); data[i][1]=pwd.getStringCellValue();

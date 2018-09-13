@@ -2,16 +2,16 @@
 <testng-results total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-09-11T16:46:45Z" name="Default suite" finished-at="2018-09-11T16:49:03Z" duration-ms="138063">
+  <suite started-at="2018-09-13T07:25:06Z" name="Default suite" finished-at="2018-09-13T07:26:32Z" duration-ms="86584">
     <groups>
     </groups>
-    <test started-at="2018-09-11T16:46:45Z" name="Default test" finished-at="2018-09-11T16:49:03Z" duration-ms="138063">
+    <test started-at="2018-09-13T07:25:06Z" name="Default test" finished-at="2018-09-13T07:26:32Z" duration-ms="86584">
       <class name="test.ReadExcelUsingarray">
-        <test-method signature="loadtest(java.lang.String, java.lang.String)[pri:0, instance:test.ReadExcelUsingarray@305b7c14]" started-at="2018-09-11T22:16:46Z" name="loadtest" data-provider="getdata" finished-at="2018-09-11T22:17:21Z" duration-ms="35325" status="PASS">
+        <test-method signature="loadtest(java.lang.String, java.lang.String)[pri:0, instance:test.ReadExcelUsingarray@7d8704ef]" started-at="2018-09-13T12:55:07Z" name="loadtest" data-provider="getdata" finished-at="2018-09-13T12:55:29Z" duration-ms="21805" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Vishal]]>
+                <![CDATA[1]]>
               </value>
             </param>
             <param index="1">
@@ -23,11 +23,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadtest -->
-        <test-method signature="loadtest(java.lang.String, java.lang.String)[pri:0, instance:test.ReadExcelUsingarray@305b7c14]" started-at="2018-09-11T22:17:21Z" name="loadtest" data-provider="getdata" finished-at="2018-09-11T22:17:56Z" duration-ms="34767" status="PASS">
+        <test-method signature="loadtest(java.lang.String, java.lang.String)[pri:0, instance:test.ReadExcelUsingarray@7d8704ef]" started-at="2018-09-13T12:55:29Z" name="loadtest" data-provider="getdata" finished-at="2018-09-13T12:55:51Z" duration-ms="22156" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[sinha]]>
+                <![CDATA[2]]>
               </value>
             </param>
             <param index="1">
@@ -39,11 +39,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadtest -->
-        <test-method signature="loadtest(java.lang.String, java.lang.String)[pri:0, instance:test.ReadExcelUsingarray@305b7c14]" started-at="2018-09-11T22:17:56Z" name="loadtest" data-provider="getdata" finished-at="2018-09-11T22:18:31Z" duration-ms="35315" status="PASS">
+        <test-method signature="loadtest(java.lang.String, java.lang.String)[pri:0, instance:test.ReadExcelUsingarray@7d8704ef]" started-at="2018-09-13T12:55:51Z" name="loadtest" data-provider="getdata" finished-at="2018-09-13T12:56:11Z" duration-ms="19956" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[test]]>
+                <![CDATA[3]]>
               </value>
             </param>
             <param index="1">
@@ -55,11 +55,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadtest -->
-        <test-method signature="loadtest(java.lang.String, java.lang.String)[pri:0, instance:test.ReadExcelUsingarray@305b7c14]" started-at="2018-09-11T22:18:31Z" name="loadtest" data-provider="getdata" finished-at="2018-09-11T22:19:03Z" duration-ms="31554" status="PASS">
+        <test-method signature="loadtest(java.lang.String, java.lang.String)[pri:0, instance:test.ReadExcelUsingarray@7d8704ef]" started-at="2018-09-13T12:56:11Z" name="loadtest" data-provider="getdata" finished-at="2018-09-13T12:56:32Z" duration-ms="21447" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[test2]]>
+                <![CDATA[4]]>
               </value>
             </param>
             <param index="1">
