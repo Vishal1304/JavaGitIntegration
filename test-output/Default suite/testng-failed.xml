@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="test.ReadExcelUsingarray">
+      <class name="com.testNG.ItestAnalyzer.Guru99Login">
         <methods>
-          <include name="loadtest"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- test.ReadExcelUsingarray -->
+      </class> <!-- com.testNG.ItestAnalyzer.Guru99Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
